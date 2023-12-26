@@ -53,11 +53,11 @@ export default function Hero() {
                 {/* main-image section */}
                 <div className='flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden'>
                     <img src={imgField} alt=""  
-                    className='w-[300] sm:w-[450px] mx-auto spin'    
+                    className='w-[300px] sm:w-[450px] mx-auto spin'    
                     />
                 </div>
                   {/* image list section */}
-                <div className='flex lg:flex-col lg:top-1/2 lg:translate-y-1/2 lg:py-2 justify-center'>
+                <div className='flex lg:flex-col lg:top-1/2 lg:translate-y-1/2 lg:py-2 justify-center items-center gap-4 absolute bottom-[0px] lg-right-10px bg-white/30 rounded-full'>
                     {ImgList.map((item)=>(
                         <img
                             key={item.id} src={item.image}
