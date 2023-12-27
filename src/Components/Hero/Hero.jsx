@@ -62,6 +62,10 @@ export default function Hero() {
                         <img
                             key={item.id} src={item.image}
                             className='max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-200'
+                            onClick={()=>{
+                                setimgField(item.image);
+                                item.id===1? food1:item.id===2?food2:food3;
+                            }}
                         /> 
                         
                     ))}
