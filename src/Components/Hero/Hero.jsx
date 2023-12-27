@@ -49,7 +49,7 @@ export default function Hero() {
                     </div>
                 </div>
              {/*Image Section*/}
-             <div className='order-1 sm:order-2 min-h-[450px] sm:min-h-[450px] flex justify-center item-center relative'>
+             <div className='order-1 sm:order-2 min-h-[450px] sm:min-h-[450px] flex justify-center items-center relative'>
                 {/* main-image section */}
                 <div className='flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden'>
                     <img src={imgField} alt=""  
@@ -57,7 +57,7 @@ export default function Hero() {
                     />
                 </div>
                   {/* image list section */}
-                <div className='flex lg:flex-col lg:top-1/2 lg:translate-y-1/2 lg:py-2 justify-center items-center gap-4 absolute bottom-[0px] lg-right-10px bg-white/30 rounded-full'>
+                <div className='flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full'>
                     {ImgList.map((item)=>(
                         <img
                             key={item.id} src={item.image}
