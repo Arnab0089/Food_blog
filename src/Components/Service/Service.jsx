@@ -50,8 +50,8 @@ export default function Service() {
                                 />
                             </div>
                             <div className='p-4 text-center'>
-                                <h1 className='text-xl font-bold'>{name}</h1>
-                                <p className='text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2'>{description}</p>
+                                <h1 className='text-xl font-bold dark:text-white'>{name}</h1>
+                                <p className='text-gray-500  group-hover:text-white duration-300 text-sm line-clamp-2'>{description}</p>
                             </div>
                         </div>
                         
