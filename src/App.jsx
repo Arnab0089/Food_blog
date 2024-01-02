@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero/Hero'
 import Service from './Components/Service/Service'
 import Banner from './Components/Banner/Banner'
+import AppStore from './Components/AppStore/AppStore'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Hero/>
       <Service/>
       <Banner/>
+      <AppStore/>
     </div>
   )
 }
