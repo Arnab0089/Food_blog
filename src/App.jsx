@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Service from './Components/Service/Service'
 import Banner from './Components/Banner/Banner'
 import AppStore from './Components/AppStore/AppStore'
+import Testimonial from './Components/Testimonial/Testimonial'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Service/>
       <Banner/>
       <AppStore/>
+      <Testimonial/>
     </div>
   )
 }
