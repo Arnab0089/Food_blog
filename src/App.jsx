@@ -7,7 +7,20 @@ import AppStore from './Components/AppStore/AppStore'
 import Testimonial from './Components/Testimonial/Testimonial'
 import Footer from './Components/Footer/Footer'
 
+import "aos/dist/aos.css"
+import AOS from 'aos'
+
 export default function App() {
+  React.useEffect(()=>{
+    AOS.init({
+      offset:100,
+      duration:500,
+      easing:"ease-in-sine",
+      delay:100,
+    })
+    AOS.refresh();
+  },[]);
+  
   return (
     <div className='bg-white dark:bg-gray-700'>
       <Navbar/>

@@ -43,7 +43,11 @@ export default function Service() {
                 {
                     ServiceData.map(({id,image,name,description})=>(
                         
-                        <div key={id} className='max-w-[300px] group rounded-2xl bg-white  dark:border-orange-500 dark:bg-gray-800 hover:bg-primary hover:text-white duration-300 p-4 shadow-xl' >
+                        <div
+                        data-aos="zoom-in"
+                data-aos-duration="300"
+                
+                        key={id} className='max-w-[300px] group rounded-2xl bg-white  dark:border-orange-500 dark:bg-gray-800 hover:bg-primary hover:text-white duration-300 p-4 shadow-xl' >
                             <div className='h-[100px]'>
                                 <img src={image} alt='' 
                                     className='max-w-[200px] mx-auto  block transform -translate-y-14 group-hover:scale-105  group-hover:rotate-6 duration300'
